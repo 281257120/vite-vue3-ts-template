@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="20px" viewBox="0 0 21 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>客观预报</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="切图" transform="translate(-183.000000, -29.000000)">
+            <g id="客观预报" transform="translate(183.571429, 29.000000)">
+                <rect id="矩形" x="0" y="0" width="20" height="20"></rect>
+                <g id="卡片查看模式_view-grid-card" transform="translate(2.000000, 2.000000)" stroke="#FFFFFF" stroke-linejoin="round">
+                    <rect id="矩形" x="0" y="0" width="16.5" height="16.5" rx="1.375"></rect>
+                    <rect id="矩形" x="3.20833333" y="3.20833333" width="3.66666667" height="3.66666667"></rect>
+                    <rect id="矩形" x="9.625" y="3.20833333" width="3.66666667" height="3.66666667"></rect>
+                    <rect id="矩形" x="3.20833333" y="9.625" width="3.66666667" height="3.66666667"></rect>
+                    <rect id="矩形" x="9.625" y="9.625" width="3.66666667" height="3.66666667"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
