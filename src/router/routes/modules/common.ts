@@ -20,7 +20,7 @@ const routes: RouteRecordRaw[] = [
         name: 'liveAnalysis',
         meta: {
           title: '实况分析',
-          icon: `${import.meta.env.VITE_VUE_ROUTER_BASE}public/images/tempImg/实况分析.svg`
+          icon: `${import.meta.env.VITE_VUE_ROUTER_BASE}images/tempImg/实况分析.svg`
         },
         component: () => import('@/pages/liveAnalysis/Index.vue'),
         redirect: '/liveAnalysis/groundObs',
@@ -40,7 +40,7 @@ const routes: RouteRecordRaw[] = [
       {
         path: '/aviationHazardWeather',
         name: 'aviationHazardWeather',
-        meta: { title: '航危天气', icon: `${import.meta.env.VITE_VUE_ROUTER_BASE}public/images/tempImg/航危天气.svg` },
+        meta: { title: '航危天气', icon: `${import.meta.env.VITE_VUE_ROUTER_BASE}images/tempImg/航危天气.svg` },
         component: () => import('@/pages/aviationHazardWeather/Index.vue')
       },
 
@@ -49,27 +49,27 @@ const routes: RouteRecordRaw[] = [
         name: 'modelForecast',
         meta: {
           title: '多模式预报',
-          icon: `${import.meta.env.VITE_VUE_ROUTER_BASE}public/images/tempImg/多模式预报.svg`
+          icon: `${import.meta.env.VITE_VUE_ROUTER_BASE}images/tempImg/多模式预报.svg`
         },
         component: () => import('@/pages/modelForecast/Index.vue')
       },
       {
         path: '/forecastTest',
         name: 'forecastTest',
-        meta: { title: '预报检验', icon: `${import.meta.env.VITE_VUE_ROUTER_BASE}public/images/tempImg/预报检验.svg` },
+        meta: { title: '预报检验', icon: `${import.meta.env.VITE_VUE_ROUTER_BASE}images/tempImg/预报检验.svg` },
         component: () => import('@/pages/forecastTest/Index.vue')
       },
 
       {
         path: '/objectiveForecast',
         name: 'objectiveForecast',
-        meta: { title: '客观预报', icon: `${import.meta.env.VITE_VUE_ROUTER_BASE}public/images/tempImg/客观预报.svg` },
+        meta: { title: '客观预报', icon: `${import.meta.env.VITE_VUE_ROUTER_BASE}images/tempImg/客观预报.svg` },
         component: () => import('@/pages/objectiveForecast/Index.vue')
       },
       {
         path: '/informationDelivery',
         name: 'informationDelivery',
-        meta: { title: '信息发布', icon: `${import.meta.env.VITE_VUE_ROUTER_BASE}public/images/tempImg/信息发布.svg` },
+        meta: { title: '信息发布', icon: `${import.meta.env.VITE_VUE_ROUTER_BASE}images/tempImg/信息发布.svg` },
         component: () => import('@/pages/informationDelivery/Index.vue')
       },
       {
@@ -77,14 +77,14 @@ const routes: RouteRecordRaw[] = [
         name: 'historicalSearch',
         meta: {
           title: '历史检索',
-          icon: `${import.meta.env.VITE_VUE_ROUTER_BASE}public/images/tempImg/历史检索-导航.svg`
+          icon: `${import.meta.env.VITE_VUE_ROUTER_BASE}images/tempImg/历史检索-导航.svg`
         },
         component: () => import('@/pages/historicalSearch/Index.vue')
       },
       {
         path: '/systemManagement',
         name: 'systemManagement',
-        meta: { title: '系统管理', icon: `${import.meta.env.VITE_VUE_ROUTER_BASE}public/images/tempImg/系统管理.svg` },
+        meta: { title: '系统管理', icon: `${import.meta.env.VITE_VUE_ROUTER_BASE}images/tempImg/系统管理.svg` },
         component: () => import('@/pages/systemManagement/Index.vue')
       }
     ]

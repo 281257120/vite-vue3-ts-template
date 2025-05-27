@@ -68,7 +68,7 @@ export const themes: any = {
   },
 
   default: {
-    backgroundImg: `url(${import.meta.env.VITE_VUE_ROUTER_BASE}public/images/tempImg/底图.png)`,
+    backgroundImg: `url(${import.meta.env.VITE_VUE_ROUTER_BASE}images/tempImg/底图.png)`,
     btnClolor: '#333333',
     btnBgClolor: '#D0E0FC',
     btnActiveColor: '#fff',

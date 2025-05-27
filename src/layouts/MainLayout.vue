@@ -55,8 +55,8 @@ import { useRoute, useRouter } from 'vue-router'
 import type { DropdownInstance } from 'element-plus'
 import { ArrowDown } from '@element-plus/icons-vue'
 
-const imgSrc = `${import.meta.env.VITE_VUE_ROUTER_BASE}public/images/tempImg/logo.svg`
-const imgSrc2 = `${import.meta.env.VITE_VUE_ROUTER_BASE}public/images/飞机场2.svg`
+const imgSrc = `${import.meta.env.VITE_VUE_ROUTER_BASE}images/tempImg/logo.svg`
+const imgSrc2 = `${import.meta.env.VITE_VUE_ROUTER_BASE}images/飞机场2.svg`
 
 const route = useRoute()
 defineOptions({
