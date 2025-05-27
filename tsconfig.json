@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "useUnknownInCatchVariables": false,
+    // 关闭“隐式 any 类型”检查（直接解决 TS7006）
+    "noImplicitAny": false,
+    //检查代码中 null 和 undefined 的潜在风险
+    "strictNullChecks": false,
+    // 关闭所有严格类型检查（一次性关闭多个严格选项）
+    "strict": true,
+    // 可选：跳过第三方库类型检查（避免无关错误）
+    "skipLibCheck": true,
+    "moduleResolution": "Node",
+    "jsx": "preserve",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "lib": ["ESNext", "DOM"],
+    "noEmit": true,
+    "baseUrl": "./",
+    "types": ["vue-cesium/global", "vue-cesium/Cesium", "vite/client", "unplugin-vue-define-options/macros-global"],
+    "paths": {
+      "@/*": ["./src/*"],
+      "@src*": ["./src/*"],
+      "#/*": ["src/types/*"],
+      "utils/*": ["src/utils/*"],
+      "api/*": ["src/api/*"]
+    }
+  },
+  "include": ["src/**/*", "node_modules/vue-cesium/Cesium.d.ts", "node_modules/vue-cesium/global.d.ts"]
+}

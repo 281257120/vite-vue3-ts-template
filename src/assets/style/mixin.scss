@@ -1,0 +1,92 @@
+@mixin scroll() {
+  overflow-y: auto;
+  &::-webkit-scrollbar {
+    /*滚动条整体样式*/
+    width: 6px !important;
+    /*高宽分别对应横竖滚动条的尺寸*/
+    background: var(--borderColor);
+    background: transparent;
+  }
+  &::-webkit-scrollbar-thumb {
+    // background: red;
+    background: var(--tableName);
+    background: rgba(191, 191, 191, 0.5);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+  }
+  &::-webkit-scrollbar-track {
+    // background: var(--accent);
+    padding: 1px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+  }
+}
+
+@mixin ellipsis() {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  word-break: break-all;
+}
+
+//显示多行，省略号
+@mixin mellipsis($row: 1) {
+  /* 显示两行，省略号 */
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: $row;
+  line-clamp: $row;
+  -webkit-box-orient: vertical;
+}
+
+@mixin flex() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin topMenuBtn() {
+  font-size: 18px;
+  color: #fff;
+  @include flex();
+  width: 140px;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  &:hover {
+    color: var(--btnActiveColor);
+  }
+}
+
+@mixin topMenuBtnActive() {
+  background: var(--btnActiveBgColor);
+  box-shadow: 0px 0px 7px 0px rgba(255, 255, 255, 0.3);
+  &:hover {
+    color: #fff;
+  }
+}
+
+@mixin leftMenuBtn() {
+  @include flex();
+  font-size: 12px;
+  width: 60px;
+  height: 60px;
+  color: var(--btnClolor);
+  border-radius: 8px;
+  opacity: 0.5;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+@mixin leftMenuBtnActive() {
+  color: var(--btnActiveBgColor);
+  background: #ffffff;
+}

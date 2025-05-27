@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="20px" viewBox="0 0 21 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>信息发布</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="切图" transform="translate(-210.000000, -29.000000)">
+            <g id="信息发布" transform="translate(210.714286, 29.000000)">
+                <rect id="矩形" x="0" y="0" width="20" height="20"></rect>
+                <g id="公告_announcement" transform="translate(2.000000, 3.000000)" stroke="#FFFFFF" stroke-linejoin="round">
+                    <rect id="矩形" x="0" y="3" width="16" height="11" rx="1.66666667"></rect>
+                    <polygon id="路径" stroke-linecap="round" points="8.5 0 5 3 12 3"></polygon>
+                    <line x1="4" y1="6.5" x2="11" y2="6.5" id="路径" stroke-linecap="round"></line>
+                    <line x1="3" y1="9.5" x2="6" y2="9.5" id="路径" stroke-linecap="round"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
