@@ -6,10 +6,9 @@
 
 项目中用到了 Vite + Typescript 进行开发，使用 Vue 3 `<script setup>` SFCs，查看 [script setup docs](https://cn.vuejs.org/api/sfc-script-setup.html#typescript-only-features) 学习更多。
 
-推荐使用node16+版本，本模板（v16.17.1）。
+推荐使用node16+版本，本模板（v20.13.1）。
 
-[预览本项目](https://281257120.github.io/vue3/dist/)
-
+[预览本项目](https://281257120.github.io/vite-vue3-ts-template/dist/)
 
 ## 开发 IDE
 
@@ -54,7 +53,6 @@ $ pnpm dev
 ```bash
 $ pnpm build
 ```
-
 
 ## 开发说明
 
